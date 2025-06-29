@@ -1,7 +1,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 
-const dbPath = path.join(process.cwd(), 'tmp', 'data', 'database.json')
+const dbPath = path.join('tmp', 'database.json')
 
 export async function readDB() {
   const data = await fs.readFile(dbPath, 'utf-8')

@@ -2,7 +2,7 @@ import fs from 'fs/promises'
 import path from 'path'
 
 // Path ke data/admins.json
-const adminPath = path.join(process.cwd(), 'tmp', 'data', 'admins.json')
+const adminPath = path.join(process.cwd(), 'tmp', 'admins.json')
 
 // Ambil semua admin
 export async function readAdmins() {

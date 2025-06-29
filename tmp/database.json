@@ -44,6 +44,36 @@
       "location": "Unknown",
       "last_login": "2025-06-29T02:14:16.352Z",
       "register_date": "2025-06-29T02:10:30.794Z"
+    },
+    {
+      "reseller": false,
+      "id": "8a5ebf9f-0c82-4045-90c5-3df21e9a5e14",
+      "username": "testuser",
+      "email": "testuser@example.com",
+      "apikey": "mng-86a40c35861f4640bd4d1017a7b685b6",
+      "admin": false,
+      "saldo": 0,
+      "total_order": 0,
+      "total_deposit": 0,
+      "ip": "::ffff:127.0.0.1",
+      "location": "Unknown",
+      "last_login": "2025-06-29T05:32:25.581Z",
+      "register_date": "2025-06-29T05:32:03.848Z"
+    },
+    {
+      "reseller": false,
+      "id": "fd458f6e-965e-46d9-8597-6d5f7fd66efa",
+      "username": "teslocal",
+      "email": "teslocal@example.com",
+      "apikey": "mng-4c2af19fa9be2b085ba7a967e05ceb31",
+      "admin": false,
+      "saldo": 0,
+      "total_order": 0,
+      "total_deposit": 0,
+      "ip": "::ffff:127.0.0.1",
+      "location": "Unknown",
+      "last_login": "2025-06-29T05:55:37.914Z",
+      "register_date": "2025-06-29T05:55:37.915Z"
     }
   ]
 }

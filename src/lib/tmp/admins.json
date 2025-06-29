@@ -1,0 +1,11 @@
+[
+  {
+    "id": "adm-001",
+    "username": "superadmin",
+    "email": "admin@mngsocial.com",
+    "apikey": "mng-admin-4301d5c0d5cd0f5eebc8904800admin",
+    "admin": true,
+    "last_login": null,
+    "register_date": "2025-06-29T03:00:00.000Z"
+  }
+]

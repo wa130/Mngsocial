@@ -9,9 +9,13 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Username dan email wajib diisi' }, { status: 400 })
   }
 
-  const ip = req.headers.get('x-forwarded-for') || req.ip || 'Unknown'
+  const forwarded = req.headers.get('x-forwarded-for')
+  const ip = typeof forwarded === 'string' ? forwarded.split(',')[0].trim() : 'Unknown'
+
   const db = await readDB()
-  const userIndex = db.users.findIndex((u: any) => u.username === username && u.email === email)
+  const userIndex = db.users.findIndex(
+    (u: any) => u.username === username && u.email === email
+  )
 
   if (userIndex === -1) {
     return NextResponse.json({ error: 'User tidak ditemukan' }, { status: 404 })
@@ -23,7 +27,7 @@ export async function POST(req: NextRequest) {
   db.users[userIndex].location = 'Unknown' // bisa integrasi geoip nanti
 
   await writeDB(db)
-
   const user = db.users[userIndex]
+
   return NextResponse.json({ message: 'Login berhasil', user })
 }
