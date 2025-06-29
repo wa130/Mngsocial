@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "d9d4db6f-9dde-467b-bb3e-8509dc0b8e05",
+      "username": "ujicoba",
+      "email": "uji@gmail.com",
+      "apikey": "mng-97ad4e5de833e301fb0bb4fe7ff21b82",
+      "reseller": true,
+      "admin": false,
+      "saldo": 0,
+      "total_order": 0,
+      "total_deposit": 0,
+      "ip": "::ffff:127.0.0.1",
+      "location": "Unknown",
+      "last_login": "2025-06-29T02:00:27.274Z",
+      "register_date": "2025-06-29T02:00:27.274Z"
+    },
+    {
+      "reseller": false,
+      "id": "136b42e7-ef47-492e-a73a-6d97a1c2b810",
+      "username": "testbaru",
+      "email": "baru@example.com",
+      "apikey": "mng-3d4ed9951870b57459ccadc6ea388cb8",
+      "admin": false,
+      "saldo": 0,
+      "total_order": 0,
+      "total_deposit": 0,
+      "ip": "::ffff:127.0.0.1",
+      "location": "Unknown",
+      "last_login": "2025-06-29T02:05:32.820Z",
+      "register_date": "2025-06-29T02:05:32.820Z"
+    },
+    {
+      "reseller": true,
+      "id": "f4d93d73-e0cc-466d-b0b9-c59c33200519",
+      "username": "cobabaru",
+      "email": "cobabaru@example.com",
+      "apikey": "mng-4301d5c0d5cd0f5eebc890480017801a",
+      "admin": false,
+      "saldo": 10000,
+      "total_order": 0,
+      "total_deposit": 0,
+      "ip": "::ffff:127.0.0.1",
+      "location": "Unknown",
+      "last_login": "2025-06-29T02:14:16.352Z",
+      "register_date": "2025-06-29T02:10:30.794Z"
+    }
+  ]
+}
